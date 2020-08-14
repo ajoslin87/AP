@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["changeText","id","innerHTML"],"mappings":"AAAA,SAASA,UAAT,CAAoBC,EAApB,EAAuB;AACnBA,EAAAA,EAAE,CAACC,SAAH,GAAc,gBAAd;AACH","file":"AP.e31bb0bc.js","sourceRoot":"..","sourcesContent":["function changeText(id){\n    id.innerHTML =\"AP CONTRACTING\";\n}"]}
