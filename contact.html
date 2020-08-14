@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content ="width=device-width">
     <title>Abby Contracting, LLC</title>
-    <!--<script src ='app.js'></script>-->
+
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous">
+
+    </script>
+
+    <script src ='app.js'></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
@@ -28,9 +36,20 @@
 
 <div id="container1">
     <div id="main">
+        <section id="contact_container">
+            <form action="" id="contact_form">
+
+                <input type="text" id ="fname" name ="fname" value ="First Name">
+                <input type="text" id ="lname" name ="lname" value ="Last Name"><br>
+                <input type="text" id ="pnumber" name ="pnumber" value ="Phone Number">
+                <input type="text" id ="email" name ="email" value ="Email Address"><br>
+                <input type="text" id ="city" name ="city" value ="City">
+                <input type="text" id ="zip" name ="zip" value ="Zip"><br>
+
+            </form>
+        </section>
 
     </div>
-</div>
 
 <footer>
     <div id="contact">
@@ -48,5 +67,6 @@
 
 </footer>
 
+</div>
 
 </body>
