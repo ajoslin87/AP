@@ -1,0 +1,55 @@
+#about-main{
+    /*overflow:hidden;*/
+    /*padding-bottom:186px;*/
+    /*padding-top:83px;*/
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    /*width:100%;*/
+    position:relative;
+    border: 2px solid blue;
+    height: 100%;
+}
+
+/*#personal{*/
+
+/*}*/
+.about-sub{
+    border: 2px solid red;
+    display: flex;
+    flex-direction:row;
+    margin:10px;
+    flex: 1;
+    justify-content: center;
+    align-content:center;
+
+}
+
+
+.about-sub p{
+    display:flex;
+    flex: 3;
+    align-items: center;
+}
+
+
+.photo-holder{
+    display:flex;
+    flex:1;
+    border:2px solid black;
+    align-content: center;
+    justify-content:center;
+
+}
+
+.photo-holder img{
+    opacity: 0.8;
+    cursor: pointer;
+    position:relative;
+    width:200px;
+    height:auto;
+    z-index: 1;
+    padding:10px;
+
+}

@@ -14,6 +14,7 @@
 
     <script src ='app.js'></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
 </head>
@@ -29,13 +30,17 @@
         <li class="item"><a href="contact.html">CONTACT</a></li>
         <li class="item"><a href="gallery.html">GALLERY</a></li>
         <li class="toggle"><a href="#"><span class = "bars"></span></a></li>
-        <!--<li><p>484-300-7263</p></li>-->
+        <li id = phone class ="item"><i class = "fas fa-phone"></i><p>484-300-7263</p></li>
     </ul>
 </nav>
 
 <div id="container1">
-    <div id="showcase">
-    <div id="main">
+    <!--<div id="showcase">-->
+    <div id="about-main">
+        <div id="personal" class ="about-sub">
+            <div class="photo-holder">
+                <img src="images/abby.jpg" alt="Abby">
+            </div>
 <p>
     I grew up in Pennsburg, Pennsylvania – a small town northwest of Philadelphia – in a
     fixer-upper my parents bought in 1999. My love for construction and renovation came
@@ -44,25 +49,43 @@
     I continued to renovate our home until I moved out in 2016. I spent class time in high
     school daydreaming of the weekends and summer when I could put in more work.
 </p>
+        </div>
+
+        <div id="company" class = "about-sub">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum.
+            </p>
+            <div class="photo-holder">
+            </div>
+        </div>
     </div>
-    </div>
-</div>
+    <!--</div>-->
 
 <footer>
-    <div id="contact">
-        <p>484-300-7263</p>
-        <p>info@abbycontracting.com</p>
-    </div>
-    <div id="copyright" class="footer-container">
-        <p>AP Contracting, Copyright &copy;</p>
-    </div>
+    <div id="footer-box">
+        <div id="contact" class ="footer-container">
+            <p>484-300-7263</p>
+            <p>info@abbycontracting.com</p>
+        </div>
 
-    <div id = "social" class="footer-container">
-        <a class = "sb" href="https://www.facebook.com/abigail.pusey"><i class="fab fa-facebook-f"></i></a>
-        <a class = "sb" href="https://www.instagram.com/abby_pusey/"><i class="fab fa-instagram"></i></a>
+        <div id="copyright" class="footer-container">
+            <p>AP Contracting, Copyright &copy</p>
+        </div>
+
+        <div id = "social" class="footer-container">
+            <a class = "sb" href="https://www.facebook.com/abigail.pusey"><i class="fab fa-facebook-f"></i></a>
+            <a class = "sb" href="https://www.instagram.com/abby_pusey/"><i class="fab fa-instagram"></i></a>
+        </div>
+
     </div>
 
 </footer>
 
+</div>
 
 </body>
