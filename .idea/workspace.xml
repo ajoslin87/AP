@@ -162,8 +162,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
+                <state relative-caret-position="345">
+                  <caret line="24" column="75" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="75" />
                 </state>
               </provider>
             </entry>
@@ -336,7 +336,7 @@
       <workItem from="1595569385916" duration="18503000" />
       <workItem from="1596342517534" duration="2081000" />
       <workItem from="1596837620818" duration="30729000" />
-      <workItem from="1597860628173" duration="39424000" />
+      <workItem from="1597860628173" duration="39611000" />
     </task>
     <task id="LOCAL-00001" summary="Rough Draft of all files complete">
       <created>1597898661297</created>
@@ -349,7 +349,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159559000" />
+    <option name="totallyTimeSpent" value="159746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="23" width="1440" height="835" extended-state="0" />
@@ -545,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
+        <state relative-caret-position="345">
+          <caret line="24" column="75" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="75" />
         </state>
       </provider>
     </entry>
