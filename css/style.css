@@ -442,7 +442,7 @@ footer #contact{
     /*width:100%;*/
     position:relative;
     height: 100%;
-    background-image: url("/images/front-porch.jpeg");
+    background-image: url("../images/front-porch.jpeg");
     background-size: cover;
 
 
