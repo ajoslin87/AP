@@ -32,11 +32,12 @@ body{
 
 
 nav {
-    background: #222;
+    background: rgba(248,248,255, 0.7);
     padding: 5px 0;
     position: fixed;
     width: 100%;
     z-index: 300;
+    /*opacity: .5;*/
 }
 
 ul{
@@ -44,7 +45,7 @@ ul{
 }
 
 a{
-    color:white;
+    color: #585858;
     text-decoration:none;
 }
 
@@ -58,12 +59,12 @@ a{
 }
 
 #phone p{
-    color:white;
+    color:#585858;
     padding-left:5px;
 }
 
 #phone i{
-    color: red;
+    color: #585858;
 }
 a:hover{
     text-decoration:underline;
@@ -164,7 +165,7 @@ opacity:1;
     /*min-height:65vh;*/
     /*width: 100vh;*/
     text-align:center;
-    color: #35424a;
+    color: #ffffff;
     margin: 0;
     display:flex;
     align-content:center;
@@ -262,7 +263,7 @@ footer{
     margin:0;
     /*padding:20px;*/
     color:#ffffff;
-    background-color:#35424a;
+    background-color:#696969;
     text-align: center;
     bottom: 0;
     vertical-align: bottom;
@@ -376,7 +377,6 @@ footer #contact{
     height:100vh;
     position:relative;
     padding-top:83px;
-
 }
 
 #services{
@@ -441,6 +441,9 @@ footer #contact{
     align-items:center;
     /*width:100%;*/
     position:relative;
+    height: 100%;
+    background-image: url("/images/front-porch.jpeg");
+    background-size: cover;
 
 
 }
