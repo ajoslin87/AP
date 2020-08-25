@@ -15,8 +15,8 @@
 
     <script src ='app.js'></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
 </head>
 
@@ -24,12 +24,12 @@
 
 <nav>
     <ul class ="menu">
-        <li class="logo"><a href="index.html"><h1><span class="highlight">Abby</span>Contracting, LLC</h1></a></li>
+        <li class="logo"><a href="index.html"><h1><span class="highlight">Abby</span> Contracting, LLC</h1></a></li>
         <li class="item"><a href="index.html">HOME</a></li>
         <li class ="item"><a href="about.html">ABOUT</a></li>
         <li class ="item"><a href="services2.html">SERVICES</a></li>
-        <li class="item"><a href="contact.html">CONTACT</a></li>
         <li class="item"><a href="gallery.html">GALLERY</a></li>
+        <li class="item"><a href="contact.html">CONTACT</a></li>
         <li class="toggle"><a href="#"><span class = "bars"></span></a></li>
         <li id = phone class ="item"><i class = "fas fa-phone"></i><p>484-300-7263</p></li>
     </ul>
@@ -37,40 +37,48 @@
 
 <div id="container1">
     <div id="contact-main">
-        <section id="contact_container">
+        <div id="contact_container">
+            <h3>Request a quote:</h3>
             <form action="" id="contact_form">
 
                 <input type="text" id ="fname" name ="fname" value ="First Name">
-                <input type="text" id ="lname" name ="lname" value ="Last Name"><br>
+                <input type="text" id ="lname" name ="lname" value ="Last Name">
                 <input type="text" id ="pnumber" name ="pnumber" value ="Phone Number">
-                <input type="text" id ="email" name ="email" value ="Email Address"><br>
+                <input type="text" id ="email" name ="email" value ="Email Address">
                 <input type="text" id ="city" name ="city" value ="City">
-                <input type="text" id ="zip" name ="zip" value ="Zip"><br>
+                <input type="text" id ="zip" name ="zip" value ="Zip">
+                <input type="text" id = "info" name = "info" value = "Please provide a brief description">
 
             </form>
-        </section>
+        </div>
+        <div id="contact_information_container">
+            <ul>
+                <li><p>Phone Number: 484-300-7263</p></li>
+                <li><p>Email: info@abbycontracting.com</p></li>
+            </ul>
+        </div>
 
     </div>
 
-    <footer>
-        <div id="footer-box">
-            <div id="contact" class ="footer-container">
-                <p>484-300-7263</p>
-                <p>info@abbycontracting.com</p>
-            </div>
 
-            <div id="copyright" class="footer-container">
-                <p>AP Contracting, Copyright &copy</p>
-            </div>
-
-            <div id = "social" class="footer-container">
-                <a class = "sb" href="https://www.facebook.com/abigail.pusey"><i class="fab fa-facebook-f"></i></a>
-                <a class = "sb" href="https://www.instagram.com/abby_pusey/"><i class="fab fa-instagram"></i></a>
-            </div>
-
-            <!----></div>
-    </footer>
 
 </div>
+<footer>
+    <div id="footer-box">
+        <div id="contact" class ="footer-container">
+            <p>484-300-7263</p>
+            <p>info@abbycontracting.com</p>
+        </div>
 
+        <div id="copyright" class="footer-container">
+            <p>Abby Contracting, LLC</p>
+        </div>
+
+        <div id = "social" class="footer-container">
+            <a class = "sb" href="https://www.facebook.com/abigail.pusey"><i class="fab fa-facebook-f"></i></a>
+            <a class = "sb" href="https://www.instagram.com/abby_pusey/"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <!----></div>
+</footer>
 </body>

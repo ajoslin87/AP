@@ -3,13 +3,17 @@
 /*}*/
 
 html{
-    height:100%;
+min-height: 100%
 }
+
+
 *{
     box-sizing:border-box;
     padding:0;
     margin:0;
 }
+
+
 body{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 15px;
@@ -17,16 +21,15 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f8f8ff;
+    height:100vh;
     /*position:static;*/
-    height:100%;
     /*width:auto;*/
-    /*display: flex*/
+    display: flex;
     /*flex-direction:row;*/
-    /*min-height: 500px;*/
-    /*flex-direction:column;*/
+    min-height: 100%;
+    flex-direction:column;
     /*background: url('../images/112112.jpg') 0 0;*/
     /*background-image: linear-gradient(#35424a, #cb1dff);*/
-
 }
 /*Global*/
 
@@ -163,14 +166,13 @@ opacity:1;
 
 #showcase{
     /*min-height:65vh;*/
-    /*width: 100vh;*/
     text-align:center;
     color: #ffffff;
     margin: 0;
     display:flex;
     align-content:center;
     position:relative;
-    /*min-height:400px;*/
+    min-height:400px;
     /*padding-top: 85px;*/
 }
 
@@ -260,22 +262,13 @@ opacity:1;
 }
 
 footer{
-    margin:0;
-    /*padding:20px;*/
+    margin-top:auto;
     color:#ffffff;
     background-color:#696969;
     text-align: center;
-    bottom: 0;
-    vertical-align: bottom;
+    /*vertical-align: bottom;*/
     width: 100%;
-    /*height:auto;*/
-    position: relative;
-    /*margin-top: auto;*/
-    /*clear: both;*/
-    /*display:flex;*/
-    /*flex-direction:row;*/
-    /*flex-wrap:nowrap;*/
-    /*align-items: center;*/
+
  }
 
 #footer-box{
@@ -342,6 +335,7 @@ footer #contact{
     flex:1;
     justify-content: center;
     flex-shrink:0;
+    align-items: flex-start;
 }
 
 
@@ -352,8 +346,11 @@ footer #contact{
     cursor: pointer;
     position:relative;
     width:350px;
+    height:267.53px;
     z-index: 1;
     padding:10px;
+    object-fit: cover;
+    transition:1s;
 }
 #picture{
     text-align: center;
@@ -364,6 +361,7 @@ footer #contact{
 }
 .column img:hover {
     opacity: 1;
+    transition:1s;
 }
 
 /* Clear floats after the columns */
@@ -374,7 +372,7 @@ footer #contact{
 }
 
 #container1{
-    height:100vh;
+    /* min-height:100%; */
     position:relative;
     padding-top:83px;
 }
@@ -399,28 +397,24 @@ footer #contact{
 
 }
 
-#contact_container{
-    text-align: center;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    align-content: center;
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*transform: translate(-50%,-50%);*/
-    position:relative;
-    /*padding:90px;*/
-    padding-top:85px;
-    flex-direction:column;
-    width:100%;
-    margin:0;
-    height: 100vh;
-    flex:1;
-}
-
-#contact_container{
-    padding-top:85px;
-}
+/*#contact_container{*/
+    /*text-align: center;*/
+    /*display: flex;*/
+    /*align-items:center;*/
+    /*justify-content:center;*/
+    /*align-content: center;*/
+    /*!*top: 50%;*!*/
+    /*!*left: 50%;*!*/
+    /*!*transform: translate(-50%,-50%);*!*/
+    /*position:relative;*/
+    /*!*padding:90px;*!*/
+    /*padding-top:85px;*/
+    /*flex-direction:column;*/
+    /*width:100%;*/
+    /*margin:0;*/
+    /*height: 100vh;*/
+    /*flex:1;*/
+/*}*/
 
 #box_test{
     display:flex;
@@ -444,8 +438,6 @@ footer #contact{
     height: 100%;
     background-image: url("../images/front-porch.jpeg");
     background-size: cover;
-
-
 }
 
 #social{
