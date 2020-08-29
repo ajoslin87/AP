@@ -29,8 +29,8 @@
         <li class="item"><a href="index.html">HOME</a></li>
         <li class ="item"><a href="about.html">ABOUT</a></li>
         <li class ="item"><a href="services2.html">SERVICES</a></li>
-        <li class="item"><a href="contact.html">CONTACT</a></li>
         <li class="item"><a href="gallery.html">GALLERY</a></li>
+        <li class="item"><a href="contact.html">CONTACT</a></li>
         <li class="toggle"><a href="#"><span class = "bars"></span></a></li>
         <li id = phone class ="item"><i class = "fas fa-phone"></i><p>484-300-7263</p></li>
     </ul>
@@ -45,85 +45,108 @@
                 <div id = "repairs2" class="service-item">Drywall Repairs and Carpentry</div>
             <!--</div>-->
         </div>
-        <div id="showcase-section" class = "services-section">
+        <div id="showcase-section" >
 
-            <!--<div class = service_list id = interior_painting>-->
-                <div id ="interiorShow" class="service_item">
-                    <div class="service_photo_header">
-                        <img src="images/inside-work.jpeg" alt="">
-                    </div>
-                    <div class="service_content">
-                        <ul>
-                            <li>New Construction</li>
-                            <li>Remodels</li>
-                            <li>Restoration</li>
-                            <li>Intricate jobs(railings, balusters, trim, and crown moulding)</li>
-                        </ul>
-                    </div>
-                </div>
+        <div id="interiorShow" class ="active opacity-class" >
+           <div id="showcase_interior_header" class="showcase_header">
+               <h3>Interior Work</h3>
+            </div>
+            <div class="service_item_list">
+                <ul>
+                    <li>New Construction</li>
+                    <li>Remodels</li>
+                    <li>Restoration</li>
+                    <li>Intricate Jobs</li>
+                </ul>
+            </div>
+            <!--<div class="left_side">-->
+            <div id = "interior_service_photo" class="service_item_photo">
+                <!--<img src="/images/inside-work.jpeg" alt="">-->
+            <!--</div>-->
+            </div>
 
+        </div>
 
-                <!--<div class="service_item">Remodels</div>-->
-                <!--<div class="service_item">Restoration</div>-->
-                <!--<div class="service_item">Detailed Work</div>-->
+        <div id="exteriorShow">
+            <div id="showcase_exterior_header" class ="showcase_header">
+                <h3>Exterior Work</h3>
+            </div>
+            <div class="service_item_list">
+                <ul>
+                    <li>Fences</li>
+                    <li>Siding</li>
+                    <li>Stucco</li>
+                    <li>Garage Doors</li>
+                    <li>Deck Staining</li>
+                    <li>Porches, Handrails and Balusters</li>
+                </ul>
+            </div>
+            <div id = "exterior_service_photo" class="service_item_photo">
+                <!--<img src="/images/inside-work.jpeg" alt="">-->
+            </div>
+        </div>
+
+        <div id="repairShow">
+            <div id="showcase_repairs_header" class ="showcase_header">
+                <h3>Drywall</h3>
+            </div>
+            <div class="service_item_list">
+                <ul>
+                    <li>Installation</li>
+                    <li>Taping and mud</li>
+                    <li>Repair</li>
+                    <li>Popcorn Removal</li>
+                </ul>
+            </div>
+            <div id = "repair_service_photo" class="service_item_photo">
+                <!--<img src="/images/inside-work.jpeg" alt="">-->
+            </div>
+        </div>
+
+            <!--<div id="carpentryShow">-->
+                <!--<div id="showcase_carpentry_header" class ="showcase_header">-->
+                    <!--<h3>Carpentry</h3>-->
+                <!--</div>-->
+                <!--<div class="service_item_list">-->
+                    <!--<ul>-->
+                        <!--<li>Trim</li>-->
+                        <!--<li>Crown moulding</li>-->
+                        <!--<li>Rot repairs and replacement</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <!--<div id = "carpentry-->
+                <!--_service_photo" class="service_item_photo">-->
+                    <!--&lt;!&ndash;<img src="/images/inside-work.jpeg" alt="">&ndash;&gt;-->
+                <!--</div>-->
             <!--</div>-->
 
-            <!--<div class = service_list id="exterior_painting">-->
 
-                <div id = "exteriorShow" class="service_item">
-                    <div class="service_photo_header">
-                        <img src="images/inside-work.jpeg" alt="">
-                    </div>
-                    <div class="service_content">
-                        <ul>
-                            <li>Fences</li>
-                            <li>Handrails</li>
-                            <li>Siding</li>
-                        </ul>
-                    </div>
-
-
-                </div>
-                <!--<div class="service_item">Railing</div>-->
-            <!--</div>-->
-
-                <div id = "repairShow" class="service_item">
-                    <div class="service_photo_header">
-                        <img src="images/inside-work.jpeg" alt="">
-                    </div>
-                    <div class="service_content">
-                        <ul>
-                        <li><p>From small dings and dents, to large holes, we'll patch them up and make them like new again.</p></li>
-                        <li><p>Replace old rotted and deteriorating wood.</p></li>
-                        </ul>
-                    </div>
-
-                </div>
 
 
         </div>
     </div>
 
-    <footer>
-        <div id="footer-box">
-            <div id="contact" class ="footer-container">
-                <p>484-300-7263</p>
-                <p>info@abbycontracting.com</p>
-            </div>
 
-            <div id="copyright" class="footer-container">
-                <p>Abby Contracting, LLC</p>
-            </div>
-
-            <div id = "social" class="footer-container">
-                <a class = "sb" href="https://www.facebook.com/abigail.pusey"><i class="fab fa-facebook-f"></i></a>
-                <a class = "sb" href="https://www.instagram.com/abby_pusey/"><i class="fab fa-instagram"></i></a>
-            </div>
-
-            <!----></div>
-    </footer>
 </div>
 
-<script src ="services.js"></script>
+<footer>
+    <div id="footer-box">
+        <div id="contact" class ="footer-container">
+            <p>484-300-7263</p>
+            <p>info@abbycontracting.com</p>
+        </div>
+
+        <div id="copyright" class="footer-container">
+            <p>Abby Contracting, LLC</p>
+        </div>
+
+        <div id = "social" class="footer-container">
+            <a class = "sb" href="https://www.facebook.com/abigail.pusey"><i class="fab fa-facebook-f"></i></a>
+            <a class = "sb" href="https://www.instagram.com/abby_pusey/"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <!----></div>
+</footer>
+ <script src ="services.js"></script>
 
 </body>
