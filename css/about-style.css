@@ -92,6 +92,6 @@
     #personal{
         display: flex;
         flex-direction: column;
-        padding-top: 160px;
+        /* padding-top: 160px; */
     }
 }
