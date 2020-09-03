@@ -23,7 +23,7 @@ body{
     min-height: 100vh;
     position:static;
     flex-direction: column;
-    /* min-height: 100%; */
+    min-height: 100%;
     display: grid;
     position: relative;
 }
@@ -269,7 +269,7 @@ footer{
     width: 100%;
     position: relative;
     bottom: 0;
-    /* height: 100px; */
+    height: 100px;
  }
 
 #footer-box{
@@ -373,10 +373,10 @@ footer #contact{
 }
 
 #container1{
-    position: relative;
+    /* position: relative; */
     /* background-color: aqua; */
     /* width: 100%; */
-    min-height: 100%;
+    /* min-height: 100%; */
     padding-top: 83px;
 }
 
@@ -437,7 +437,7 @@ footer #contact{
     justify-content: center;
     align-items:center;
     /*width:100%;*/
-    min-height: 100%;
+    min-height: 100vh;
     /* position:relative; */
     background-image: url("../images/front-porch.jpeg");
     background-size: cover;
