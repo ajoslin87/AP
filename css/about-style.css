@@ -1,7 +1,12 @@
+#about_body_container {
+    display:grid;
+    height:100%;
+}
+
 #about-container{
      /* min-height:100%; */
      position:relative;
-     padding-top:83px;
+     /* padding-top:83px; */
 }
 
 #about-main{

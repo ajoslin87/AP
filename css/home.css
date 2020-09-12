@@ -1,0 +1,7 @@
+#home_content_container{
+}
+
+#home_container{
+    display:grid;
+    height: 100%;
+}
